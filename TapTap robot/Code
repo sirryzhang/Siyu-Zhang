@@ -1,0 +1,68 @@
+#include <Servo.h>
+
+Servo servoLeft;
+Servo servoRight;
+int XSensor = A0;
+
+void setup() {
+  // put your setup code here, to run once:
+  servoLeft.attach(4);
+  servoRight.attach(7);
+  pinMode(XSensor, INPUT);
+  Serial.begin(9600);
+}
+
+void loop() {
+  int XVal = analogRead(XSensor);
+  Serial.println(XVal);
+
+  if (XVal < 212) {
+    turnRight();
+    delay(500);
+    turnLeft();
+    delay(500);
+  }
+  else {
+    if (XVal > 228) {
+      forward();
+      delay(500);
+      reverse();
+      delay(500);
+      stopRobot();
+      delay(1000);
+    }
+  }
+
+  //  else {
+  //    unsigned long time = millis() / 1000;
+  //    if (time % 2 == 0) {
+  //      forward();
+  //    } else {
+  //      reverse();
+  //    }
+  //  }
+}
+
+void forward() {
+  servoLeft.write(0);
+  servoRight.write(0);
+}
+
+void reverse() {
+  servoLeft.write(180);
+  servoRight.write(180);
+}
+
+void turnRight() {
+  servoLeft.write(0);
+  servoRight.write(90);
+}
+void turnLeft() {
+  servoLeft.write(90);
+  servoRight.write(0);
+}
+
+void stopRobot() {
+  servoLeft.write(0);
+  servoRight.write(0);
+}
