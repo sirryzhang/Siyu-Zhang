@@ -30,10 +30,8 @@ void loop() {
       index = buttonPushCounter % 6;
       Serial.print ("Moving to index = ");
       Serial.println (index);
-      for (index = 0; index < 6; index++); {
         myservo.write(positions[buttonPushCounter % 6]);
         delay (100);
-    }
     
 
   }
