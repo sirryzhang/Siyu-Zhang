@@ -1,5 +1,5 @@
 I have 2 ideas on my final project,
-First one is making a small robot.It will move randomly.Also it can attack the walls around them, 
+First one is making a small robot.It will move randomly.Also it can attack the walls around it, 
   walls have different colors.The robot can produce different sounds according to the different color.
-The second one is to make a combination between arduino and processing. 
-  Such like to make a pressure sensor input and then when you press the physical surface,the screen will show a circle.
+The second one is to make a structure like a flower, when there are a lot of light, it will open. 
+when there is no light it will close.
