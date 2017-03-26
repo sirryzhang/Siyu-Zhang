@@ -3,7 +3,7 @@ Project Name: Music Producer
 
 Project Subject:
 Build a light pad that respond to motion and gradually fade back to idle when there is no motion. 
-At the same time each sensor controls one note. More lights on, more music.
+At the same time each sensor controls the speaker to produce one note. More lights on, more music.
 
 Project Technical Support:
 1. LED lights pad (8*8)(Octolively Kit)
