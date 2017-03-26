@@ -1,5 +1,27 @@
-I have 2 ideas on my final project,
-First one is making a small robot.It will move randomly.Also it can attack the walls around it, 
-  walls have different colors.The robot can produce different sounds according to the different color.
-The second one is to make a structure like a flower, when there are a lot of light, it will open. 
-when there is no light it will close.
+Final Project Proposal
+Project Name: Music Producer
+
+Project Subject:
+Build a light pad that respond to motion and gradually fade back to idle when there is no motion. 
+At the same time each sensor controls one note. More lights on, more music.
+
+Project Technical Support:
+1. LED lights pad (8*8)(Octolively Kit)
+2. Proximity sensor (8)
+3. Audio wave sheild
+4. SD card( with 8 simple music or notes)
+5. Speaker
+
+Project works:
+Case 1:
+  When the hand move above the lights pad, the LED lights will illuminate following the hand. 
+  At the same time, produce several rhythmicities controlled by sensors. 
+	
+Case 2: 
+	Another option is that, when there is no motion near the lights pad, the lights will sparkle at some beautiful pattern. 
+  When there is a motion nearby, it will only light on the nearest light, and produce a single rhythmy. 
+  More lights on, more rhythmicities. 
+
+Expected problem
+1. There may be difficult if reprogram the Octolively. If there is no way to do that, I will write a code and solder a circuit by myself.
+2. Code may be difficult to controll the light to produce a beatiful pattern.
