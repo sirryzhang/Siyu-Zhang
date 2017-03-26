@@ -18,8 +18,8 @@ Case 1:
   At the same time, produce several rhythmicities controlled by sensors. 
 	
 Case 2: 
-	Another option is that, when there is no motion near the lights pad, the lights will sparkle at some beautiful pattern. 
-  When there is a motion nearby, it will only light on the nearest light, and produce a single rhythmy. 
+  Another option is that, when there is no motion near the lights pad, the lights will sparkle at some beautiful pattern. 
+  When there is a motion nearby,lights on the nearest light, and produce a single rhythmy. 
   More lights on, more rhythmicities. 
 
 Expected problem
