@@ -1,0 +1,19 @@
+Project name: 
+Major Light Pad
+
+
+Goal: 
+I want to use this project to make the hand's motion visible and audible.  
+Behavior is an interesting topic that we talked again and again. 
+But normally, the movement we know is just an intensive behavior of people, 
+the motion is a very short-term memory, which can be forgotten in a very short period. 
+But if the motion can be visualized, amazed people in some way, it can be unforgettable. 
+This is the reason why I want to do this project.
+The most attractive feature of Arduino is that it can transfer multi-sense of human behavior. 
+We can use hundreds of sensors to detect the change of world and people, include distance, sounds, color, light, distance, etc. 
+And change them into another entirely different sense. This is how I achieve my goal of transfer motion into visual light and sound.
+In my project, I use inferred and ultrasound distant sensors to detect and analyses the motion data, is the hand nearby? 
+And how far it has from the hand to the pad. 
+And then With the distance get closer and closer, the 16 lights on the pad will turn on. And also with the different position on the pad, 
+It can produce the notes Do, Re, Mi, Fa, Sol, La, and Si. Users can use this pad to make random songs by hand motion. 
+Also, they can play it as an instrument.
