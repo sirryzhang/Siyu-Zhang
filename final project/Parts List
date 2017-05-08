@@ -1,0 +1,12 @@
+Parts List:
+Ultro sound distance sensor   *1
+Arduino                       *3
+Sheild                        *1
+Piezo Busser                  *1
+LED: Ultrabright, 10 mm OD, with wide viewing-angle diffused lens except as
+specified. Warm white, standard cool white, white (clear lens), blue, green, or red.
+Other styles available upon request.     *8
+Sensor: Near-infrared proximity detector (active/passive)     *8
+Sensor range (active): 10 cm (typical), in dark room
+Sensor range (passive): Unlimited, for detection of light and shadows from IR light
+sources such as IR LEDs, incandescent lamps, and sunlight
